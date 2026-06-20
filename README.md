@@ -114,7 +114,7 @@
 
 <div align="center">
   <h3>✦ CYBER RANGE INTEL</h3>
-  <a href="https://tryhackme.com/p/artixooo">
-    <img src="https://tryhackme-badges.s3.amazonaws.com/artixooo.png" alt="TryHackMe Stats" />
+  <a href="https://tryhackme.com/p/artixoo">
+    <img src="https://tryhackme-badges.s3.amazonaws.com/artixoo.png" alt="TryHackMe Stats" />
   </a>
 </div>
