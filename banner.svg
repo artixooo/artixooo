@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="100%" height="260" style="background:#080b10; font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;">
+  <!-- Grid Background -->
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#121824" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="neon-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff66"/>
+      <stop offset="50%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#bd93f9"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="#080b10"/>
+  <rect width="100%" height="100%" fill="url(#grid)"/>
+
+  <!-- Decorative Tech borders -->
+  <line x1="10" y1="10" x2="890" y2="10" stroke="url(#neon-grad)" stroke-width="1.5" opacity="0.8"/>
+  <line x1="10" y1="250" x2="890" y2="250" stroke="url(#neon-grad)" stroke-width="1.5" opacity="0.8"/>
+  <path d="M 10,10 L 10,40 M 10,220 L 10,250 M 890,10 L 890,40 M 890,220 L 890,250" stroke="url(#neon-grad)" stroke-width="3"/>
+
+  <!-- Glowing status indicators -->
+  <circle cx="30" cy="30" r="4" fill="#00ff66" filter="url(#glow)"/>
+  <text x="45" y="34" fill="#00ff66" font-size="11" letter-spacing="1">SYSTEM: OPERATIONAL</text>
+
+  <!-- Left Main Content -->
+  <text x="50" y="85" fill="#8892b0" font-size="14" letter-spacing="2">root@artixooo:~$ whoami</text>
+  <text x="50" y="135" fill="#ffffff" font-size="34" font-weight="900" font-family="system-ui, -apple-system, sans-serif" letter-spacing="1">UTKARSH PRATHAM</text>
+  
+  <!-- Subtitle -->
+  <text x="50" y="175" fill="#00e5ff" font-size="15" font-weight="bold" letter-spacing="1.5">OFFENSIVE SECURITY • APPLIED CRYPTOGRAPHY</text>
+  <text x="50" y="200" fill="#8892b0" font-size="12">B.Eng (Hons) CSE - Cybersecurity @ Chandigarh University</text>
+
+  <!-- Right HUD Dashboard -->
+  <rect x="580" y="45" width="270" height="170" rx="6" fill="#0d131f" stroke="#1e293b" stroke-width="1.5"/>
+  <line x1="580" y1="75" x2="850" y2="75" stroke="#1e293b" stroke-width="1"/>
+  
+  <text x="595" y="65" fill="#bd93f9" font-size="11" font-weight="bold" letter-spacing="1">INTEL REPORT // PROFILE</text>
+  
+  <!-- Stats list -->
+  <text x="595" y="105" fill="#8892b0" font-size="11">ALIAS:</text>
+  <text x="700" y="105" fill="#ffffff" font-size="11" font-weight="bold">artixooo</text>
+
+  <text x="595" y="130" fill="#8892b0" font-size="11">TRYHACKME:</text>
+  <text x="700" y="130" fill="#00ff66" font-size="11" font-weight="bold" filter="url(#glow)">TOP 4% Worldwide</text>
+
+  <text x="595" y="155" fill="#8892b0" font-size="11">ORGANIZATION:</text>
+  <text x="700" y="155" fill="#00e5ff" font-size="11" font-weight="bold">Founder @ Xaenithra</text>
+
+  <text x="595" y="180" fill="#8892b0" font-size="11">LOCATION:</text>
+  <text x="700" y="180" fill="#ffffff" font-size="11">New Delhi, India</text>
+
+  <text x="595" y="202" fill="#8892b0" font-size="11">TARGET FOCUS:</text>
+  <text x="700" y="202" fill="#e2e8f0" font-size="10">Web Exp / Zero-Knowledge</text>
+
+  <!-- Visual graphic element -->
+  <path d="M 830,195 L 840,205 L 830,205 Z" fill="#bd93f9"/>
+</svg>
